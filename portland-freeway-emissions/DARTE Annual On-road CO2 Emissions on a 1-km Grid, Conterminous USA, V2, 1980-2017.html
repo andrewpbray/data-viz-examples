@@ -1,0 +1,826 @@
+<!DOCTYPE html>
+<!-- saved from url=(0050)https://daac.ornl.gov/CMS/guides/CMS_DARTE_V2.html -->
+<html lang="en-us"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta keywords="fossil fuel emissions, automobile, transportation sector, carbon emissions">
+    <title>
+      
+      DARTE Annual On-road CO2 Emissions on a 1-km Grid, Conterminous USA, V2, 1980-2017
+      
+    </title>
+    <link rel="stylesheet" type="text/css" href="./DARTE Annual On-road CO2 Emissions on a 1-km Grid, Conterminous USA, V2, 1980-2017_files/font-awesome.min.css"><link rel="stylesheet" type="text/css" href="./DARTE Annual On-road CO2 Emissions on a 1-km Grid, Conterminous USA, V2, 1980-2017_files/font-awesome.min(1).css"><link rel="stylesheet" href="./DARTE Annual On-road CO2 Emissions on a 1-km Grid, Conterminous USA, V2, 1980-2017_files/new.css">
+    <link rel="stylesheet" href="./DARTE Annual On-road CO2 Emissions on a 1-km Grid, Conterminous USA, V2, 1980-2017_files/ome_guide.css">
+  <link href="./DARTE Annual On-road CO2 Emissions on a 1-km Grid, Conterminous USA, V2, 1980-2017_files/css" rel="stylesheet" type="text/css"><link href="./DARTE Annual On-road CO2 Emissions on a 1-km Grid, Conterminous USA, V2, 1980-2017_files/eui-icon-library.css" rel="stylesheet" type="text/css"><link href="./DARTE Annual On-road CO2 Emissions on a 1-km Grid, Conterminous USA, V2, 1980-2017_files/tophat2.css" rel="stylesheet" type="text/css"><link href="./DARTE Annual On-road CO2 Emissions on a 1-km Grid, Conterminous USA, V2, 1980-2017_files/font-awesome.min(2).css" rel="stylesheet" type="text/css"><script type="text/javascript" async="" src="./DARTE Annual On-road CO2 Emissions on a 1-km Grid, Conterminous USA, V2, 1980-2017_files/js"></script><script type="text/javascript" async="" src="./DARTE Annual On-road CO2 Emissions on a 1-km Grid, Conterminous USA, V2, 1980-2017_files/web-vitals.iife.js"></script><script type="text/javascript" async="" src="./DARTE Annual On-road CO2 Emissions on a 1-km Grid, Conterminous USA, V2, 1980-2017_files/analytics.js"></script><script async="" src="./DARTE Annual On-road CO2 Emissions on a 1-km Grid, Conterminous USA, V2, 1980-2017_files/analytics.js"></script><script async="" src="./DARTE Annual On-road CO2 Emissions on a 1-km Grid, Conterminous USA, V2, 1980-2017_files/Universal-Federated-Analytics-Min.js" id="_fed_an_ua_tag" type="text/javascript"></script><script async="" src="./DARTE Annual On-road CO2 Emissions on a 1-km Grid, Conterminous USA, V2, 1980-2017_files/gtm.js"></script><script src="./DARTE Annual On-road CO2 Emissions on a 1-km Grid, Conterminous USA, V2, 1980-2017_files/jquery-3.5.1.min.js"></script><link rel="stylesheet" type="text/css" href="./DARTE Annual On-road CO2 Emissions on a 1-km Grid, Conterminous USA, V2, 1980-2017_files/feedback.css"><link rel="stylesheet" type="text/css" href="./DARTE Annual On-road CO2 Emissions on a 1-km Grid, Conterminous USA, V2, 1980-2017_files/banner_widget-ee6b19d5696c7668d59b623d5c4a04dfce0b7744827acca717b2c69a4480c96f.css"><link rel="stylesheet" type="text/css" href="./DARTE Annual On-road CO2 Emissions on a 1-km Grid, Conterminous USA, V2, 1980-2017_files/eui-icon-library(1).css"></head>
+  <body><div class="th-wrapper"><div id="earthdata-tophat2" style="width: 950px;"><div class="th-left-section"><div class="th-left-title"><a href="https://earthdata.nasa.gov/" id="th-home-link">EARTH<b>DATA</b></a></div></div><div class="th-link-container th-help-link-container"><a href="javascript:void(0);" id="th-help-link" class="th-right-panel-link"><i class="fa fa-question-circle"></i><div class="th-menu-panel th-help-panel" style="margin-right: 261px; display: none;"><div class="th-help-panel-content"><span><b>Welcome to NASA's EOSDIS</b></span><p>NASA's Earth Observing System Data and Information System (EOSDIS) is a key core capability in NASA’s Earth Science Data Systems Program for archiving and distributing Earth science data from multiple missions to users. </p> <p>This bar indicates that you are within the EOSDIS enterprise which includes 12 science discipline-oriented Distributed Active Archive Centers (DAACs) supporting diverse user communities in science research, applied science research, applications, as well as the general interested public.</p> <p><b>Find a DAAC / Other DAACs</b> - Use these links to navigate to any of the 12 EOSDIS DAACs. </p><p><i class="fa fa-comments-o"></i> Feedback - Provide feedback about the site that is currently being viewed. </p></div></div></a></div><div class="th-link-container th-fbm-link-container"><a href="javascript:void(0);" id="th-fbm-link" class="th-right-panel-link th-fbm-link"><i class="fa fa-comments-o"></i><span class="th-feedback-text">Feedback</span></a></div><div class="th-link-container th-menu-section"><a href="javascript:void(0);" id="daac-links-header">Other DAACs<span class="th-arrow">▾</span><div class="th-menu-panel th-daac-links" style="display: none;"><ul><li><a title="Atmospheric Science Data Center (ASDC)" href="https://asdc.larc.nasa.gov/" target="_blank">ASDC</a></li><li><a title="Alaska Satellite Facility (ASF) Distributed Active Archive Center (DAAC)" href="https://www.asf.alaska.edu/" target="_blank">ASF DAAC</a></li><li><a title="Crustal Dynamics Data Information System (CDDIS)" href="https://cddis.nasa.gov/" target="_blank">CDDIS</a></li><li><a title="Goddard Earth Sciences Data and Information Services Center (GES DISC)" href="https://daac.gsfc.nasa.gov/" target="_blank">GES DISC</a></li><li><a title="Global Hydrology Resource Center (GHRC) Distributed Active Archive Center (DAAC)" href="https://ghrc.nsstc.nasa.gov/home/" target="_blank">GHRC DAAC</a></li><li><a title="Level 1 Atmosphere Archive and Distribution System (LAADS) Distributed Active Archive Center (DAAC)" href="https://ladsweb.modaps.eosdis.nasa.gov/" target="_blank">LAADS DAAC</a></li><li><a title="Land Processes Distributed Active Archive Center (LP DAAC)" href="https://lpdaac.usgs.gov/" target="_blank">LP DAAC</a></li><li><a title="National Snow and Ice Data Center (NSIDC) Distributed Active Archive Center (DAAC)" href="http://nsidc.org/daac/" target="_blank">NSIDC DAAC</a></li><li><a title="Ocean Biology Distributed Active Archive Center (OB.DAAC)" href="https://oceancolor.gsfc.nasa.gov/" target="_blank">OB.DAAC</a></li><li><a title="Oak Ridge National Laboratory (ORNL) Distributed Active Archive Center (DAAC)" href="http://daac.ornl.gov/" target="_blank" class="current-daac">ORNL DAAC</a></li><li><a title="Physical Oceanography Distributed Active Archive Center (PO.DAAC)" href="http://podaac.jpl.nasa.gov/" target="_blank">PO.DAAC</a></li><li><a title="Socioeconomic Data and Applications Data Center (SEDAC)" href="http://sedac.ciesin.columbia.edu/" target="_blank">SEDAC</a></li></ul></div></a></div></div></div><div id="earthdata-notification-banner"></div>
+    <div class="pagebox">
+      
+      <script>  var dataLayer = window.dataLayer = window.dataLayer || [];
+  dataLayer.push({
+      'event': 'ipAddress',
+      'ipAddress': '169.229.110.139'
+  });
+</script><a id="skip-nav" href="https://daac.ornl.gov/CMS/guides/CMS_DARTE_V2.html#main-content">Skip to main content</a><header class="headerbox"> <!-- begin headerbox container div --><div class="headerpicbox"><a id="daac-link" href="https://daac.ornl.gov/" title="ORNL DAAC">ORNL DAAC Home</a><a id="nasa-link" href="https://www.nasa.gov/" title="NASA" target="_blank">NASA Home</a><nav class="menubox"><ul class="nav">
+	<li class="top first home"><a class="top_link" href="https://daac.ornl.gov/" title="ORNL DAAC home"><span class="fa fa-home fa-fw"></span><span class="home_text down">Home</span></a>
+	</li>
+	<li class="top"><a href="https://daac.ornl.gov/about/" class="top_link"><span class="down">About Us</span></a>
+		<ul class="sub">
+			<!-- <li><a href="/about_us.shtml"><span>About ORNL DAAC</span></a></li> -->
+			<!-- <li><a href="/who.shtml"><span>Who We Are</span></a></li> -->
+			<!-- <li><a href="/partners.html"><span>Partners</span></a></li> -->
+			<!-- <li><a href="/about/biogeochem/"><span>Biogeochemical Dynamics</span></a></li> -->
+			<li><a href="https://daac.ornl.gov/about#mission"><span>Mission</span></a></li>
+			<li><a href="https://daac.ornl.gov/about#citation_policy"><span>Data Use and Citation Policy</span></a></li>
+			<li><a href="https://daac.ornl.gov/about#uwg"><span>User Working Group</span></a></li>
+			<li><a href="https://daac.ornl.gov/about#partners"><span>Partners</span></a></li>
+		</ul>
+	</li>
+	<!-- <li class="top"><a href="/about/about_us.html"><span>About Us</span></a></li> -->
+	<li class="top active current"><a href="https://daac.ornl.gov/get_data/" class="top_link"><span class="down">Get Data</span></a>
+		<ul class="sub">
+			<!--<li><a href="/get_data#datasearch" class="fly"><span>Search for Data</span></a>
+				<ul>
+					<li><a href="/daacdata"><span>Browse Data</span></a></li>
+				</ul>
+			</li>-->
+			<li><a href="https://daac.ornl.gov/get_data#themes" class="fly"><span>Science Themes</span></a>
+				<ul>
+					<li><a href="https://daac.ornl.gov/cgi-bin/theme_dataset_lister.pl?theme_id=1"><span>Vegetation and Forests</span></a></li>
+					<li><a href="https://daac.ornl.gov/cgi-bin/theme_dataset_lister.pl?theme_id=2"><span>Arctic Ecosystems</span></a></li>
+					<li><a href="https://daac.ornl.gov/cgi-bin/theme_dataset_lister.pl?theme_id=3"><span>Soils</span></a></li>
+					<li><a href="https://daac.ornl.gov/cgi-bin/theme_dataset_lister.pl?theme_id=4"><span>Carbon Cycle</span></a></li>
+					<li><a href="https://daac.ornl.gov/cgi-bin/theme_dataset_lister.pl?theme_id=5"><span>Biomass</span></a></li>
+					<li><a href="https://daac.ornl.gov/cgi-bin/theme_dataset_lister.pl?theme_id=6"><span>Land Use and Human Dimensions</span></a></li>
+					<li><a href="https://daac.ornl.gov/cgi-bin/theme_dataset_lister.pl?theme_id=7"><span>Hydrology and Cryosphere</span></a></li>
+					<li><a href="https://daac.ornl.gov/cgi-bin/theme_dataset_lister.pl?theme_id=8"><span>Fire</span></a></li>
+					<li><a href="https://daac.ornl.gov/cgi-bin/theme_dataset_lister.pl?theme_id=9"><span>Climate</span></a></li>
+				</ul>
+			</li>
+			<li><a href="https://daac.ornl.gov/get_data#projects" class="fly"><span>NASA Projects</span></a>
+				<ul>
+					<li><a href="https://daac.ornl.gov/cgi-bin/dataset_lister.pl?p=1"><span>BigFoot</span></a></li>
+					<li><a href="https://daac.ornl.gov/cgi-bin/dataset_lister.pl?p=10"><span>Hydroclimatology Collection</span></a></li>
+					<li><a href="https://daac.ornl.gov/cgi-bin/dataset_lister.pl?p=11"><span>Large Scale Biosphere-Atmosphere Experiment (LBA-ECO)</span></a></li>
+					<li><a href="https://daac.ornl.gov/cgi-bin/dataset_lister.pl?p=12"><span>MODIS Land Products Subsets</span></a></li>
+					<li><a href="https://daac.ornl.gov/cgi-bin/dataset_lister.pl?p=13"><span>Net Primary Productivity (NPP)</span></a></li>
+					<li><a href="https://daac.ornl.gov/cgi-bin/dataset_lister.pl?p=14"><span>Oregon Transect Ecosystem Research Project (OTTER)</span></a></li>
+					<li><a href="https://daac.ornl.gov/cgi-bin/dataset_lister.pl?p=15"><span>Prototype Validation Exercise (PROVE)</span></a></li>
+					<!-- <li><a href="/cgi-bin/dataset_lister.pl?p=16"><span>River Discharge (RIVDIS)</span></a></li> -->
+					<!-- <li><a href="/cgi-bin/dataset_lister.pl?p=17"><span>Russian Land Cover (RLC)</span></a></li> -->
+					<li><a href="https://daac.ornl.gov/cgi-bin/dataset_lister.pl?p=18"><span>Southern African Regional Science Initiative Project (SAFARI 2000)</span></a></li>
+					<li><a href="https://daac.ornl.gov/cgi-bin/dataset_lister.pl?p=19"><span>Soil Collection</span></a></li>
+					<li><a href="https://daac.ornl.gov/cgi-bin/dataset_lister.pl?p=2"><span>Boreal Ecosystem-Atmosphere Study (BOREAS)</span></a></li>
+					<li><a href="https://daac.ornl.gov/cgi-bin/dataset_lister.pl?p=20"><span>Superior National Forest</span></a></li>
+					<li><a href="https://daac.ornl.gov/cgi-bin/dataset_lister.pl?p=21"><span>Vegetation Collection</span></a></li>
+					<li><a href="https://daac.ornl.gov/cgi-bin/dataset_lister.pl?p=22"><span>Vegetation-Ecosystem Modeling and Analysis Project (VEMAP)</span></a></li>
+					<!-- <li><a href="/cgi-bin/dataset_lister.pl?p=25"><span>Unknown</span></a></li> -->
+					<li><a href="https://daac.ornl.gov/cgi-bin/dataset_lister.pl?p=27"><span>Model Archive</span></a></li>
+					<li><a href="https://daac.ornl.gov/cgi-bin/dataset_lister.pl?p=28"><span>North American Carbon Program (NACP)</span></a></li>
+					<li><a href="https://daac.ornl.gov/cgi-bin/dataset_lister.pl?p=29"><span>International Satellite Land Surface Climatology Project (ISLSCP II)</span></a></li>
+					<!-- <li><a href="/cgi-bin/dataset_lister.pl?p=3"><span>Boreal Ecosystem-Atmosphere Study (BOREAS) Follow On</span></a></li> -->
+					<li><a href="https://daac.ornl.gov/cgi-bin/dataset_lister.pl?p=30"><span>Atmospheric Tracer Transport Model Intercomparison Project (TransCom)</span></a></li>
+					<li><a href="https://daac.ornl.gov/cgi-bin/dataset_lister.pl?p=31"><span>Services</span></a></li>
+					<li><a href="https://daac.ornl.gov/cgi-bin/dataset_lister.pl?p=32"><span>Daymet</span></a></li>
+					<li><a href="https://daac.ornl.gov/cgi-bin/dataset_lister.pl?p=33"><span>Carbon Monitoring System (CMS)</span></a></li>
+					<li><a href="https://daac.ornl.gov/cgi-bin/dataset_lister.pl?p=34"><span>Arctic-Boreal Vulnerability Experiment (ABoVE)</span></a></li>
+					<li><a href="https://daac.ornl.gov/cgi-bin/dataset_lister.pl?p=35"><span>Carbon in Arctic Reservoirs Vulnerability Experiment (CARVE)</span></a></li>
+					<li><a href="https://daac.ornl.gov/cgi-bin/dataset_lister.pl?p=36"><span>Airborne Microwave Observatory of Subcanopy and Subsurface (AirMOSS)</span></a></li>
+					<li><a href="https://daac.ornl.gov/cgi-bin/dataset_lister.pl?p=37"><span>Atmospheric Carbon and Transport - America (ACT-America)</span></a></li>
+					<li><a href="https://daac.ornl.gov/cgi-bin/dataset_lister.pl?p=38"><span>AfriSAR</span></a></li>
+					<li><a href="https://daac.ornl.gov/cgi-bin/dataset_lister.pl?p=39"><span>Atmospheric Tomography Mission (ATom)</span></a></li>
+					<li><a href="https://daac.ornl.gov/cgi-bin/dataset_lister.pl?p=4"><span>Accelerated Canopy Chemistry Program (ACCP)</span></a></li>
+					<li><a href="https://daac.ornl.gov/cgi-bin/dataset_lister.pl?p=40"><span>Global Ecosystem Dynamics Investigation (GEDI)</span></a></li>
+					<li><a href="https://daac.ornl.gov/cgi-bin/dataset_lister.pl?p=41"><span>Delta-X</span></a></li>
+					<li><a href="https://daac.ornl.gov/cgi-bin/dataset_lister.pl?p=42"><span>SIF-ESDR</span></a></li>
+					<li><a href="https://daac.ornl.gov/cgi-bin/dataset_lister.pl?p=43"><span>MODIS/ASTER Airborne Simulator (MASTER)</span></a></li>
+					<li><a href="https://daac.ornl.gov/cgi-bin/dataset_lister.pl?p=44"><span>CARbon Atmosphere Flux Experiment (CARAFE)</span></a></li>
+					<li><a href="https://daac.ornl.gov/cgi-bin/dataset_lister.pl?p=5"><span>Climate Collection</span></a></li>
+					<li><a href="https://daac.ornl.gov/cgi-bin/dataset_lister.pl?p=6"><span>EOS Land Validation</span></a></li>
+					<li><a href="https://daac.ornl.gov/cgi-bin/dataset_lister.pl?p=7"><span>First ISLSCP Field Experiment (FIFE)</span></a></li>
+					<!-- <li><a href="/cgi-bin/dataset_lister.pl?p=8"><span>First ISLSCP Field Experiment (FIFE)  Follow On</span></a></li> -->
+					<li><a href="https://daac.ornl.gov/cgi-bin/dataset_lister.pl?p=9"><span>FLUXNET</span></a></li>
+				</ul>
+			</li>
+			<li><a href="https://daac.ornl.gov/get_data#datasets" class="fly">All Datasets</a></li>
+		</ul>
+	</li>
+	<!-- <li class="top"><a href="/get_data/get_data.html"><span>Get Data</span></a></li> -->
+	<li class="top"><a href="https://daac.ornl.gov/submit/" class="top_link"><span class="down">Submit Data</span></a>
+		<ul class="sub">
+			<li><a href="https://daac.ornl.gov/submit/form/form.html"><span>Submit Data Form</span></a></li>
+			<li><a href="https://daac.ornl.gov/submit/#scope_and_acceptance_policy"><span>Data Scope and Acceptance</span></a></li>
+			<li><a href="https://daac.ornl.gov/submit/#authorship"><span>Data Authorship Policy</span></a></li>
+			<li><a href="https://daac.ornl.gov/submit/#timeline"><span>Data Publication Timeline</span></a></li>
+			<li><a href="https://daac.ornl.gov/submit/#guidelines"><span>Detailed Submission Guidelines</span></a></li>
+		</ul>
+	</li>
+	<!-- <li class="top"><a href="/submit/submit.html"><span>Submit Data</span></a>
+		<ul class="sub">
+			<li><a href="/submit/form/form.html"><span>Submit Data Form</span></a></li>
+			<li><a href="/submit/#scope_and_acceptance_policy"><span>Data Scope and Acceptance Policy</span></a></li>
+			<li><a href="/submit/#authorship"><span>Data Authorship Policy</span></a></li>
+			<li><a href="/submit/#timeline"><span>Data Publication Timeline</span></a></li>
+			<li><a href="/submit/#guidelines"><span>Detailed Submission Guidelines</span></a></li>
+			<li><a href="/submit/questions/questions.html"><span>Data Provider Questions</span></a></li>
+			<li><a href="/submit/qachecklist/qachecklist.html"><span>Data Quality Review Checklist</span></a></li>
+			<li><a href="/submit/csvstandards/csvstandards.html"><span>CSV Standards</span></a></li>
+			<li><a href="/submit/netcdfrequirements/netcdfrequirements.html"><span>NetCDF Data Requirements</span></a></li>
+			<li><a href="/submit/help/helpsub.html"><span>Submission Help</span></a></li>
+		</ul>
+	</li> -->
+	<li class="top"><a href="https://daac.ornl.gov/tools/" class="top_link"><span class="down">Tools</span></a>
+		<ul class="sub">
+			<!-- <li><a href="/tools/"><span>Data Tools</span></a></li> -->
+			<li><a href="https://modis.ornl.gov/data.html" class="fly"><span>MODIS</span></a>
+				<ul>
+					<li><a href="https://daac.ornl.gov/modisfixedsite/"><span>MODIS Fixed Site Subsets</span></a></li>
+					<li><a href="https://daac.ornl.gov/modisglobal/"><span>MODIS Global Subsets</span></a></li>
+					<li><a href="https://daac.ornl.gov/modiswebservice/"><span>MODIS Web service</span></a></li>
+				</ul></li>
+			<li><a href="https://thredds.daac.ornl.gov/thredds/catalogs/ornldaac/ornldaac.html"><span>THREDDS</span></a></li>
+			<li><a href="https://webmap.ornl.gov/ogc"><span>SDAT</span></a></li>
+			<li><a href="https://daymet.ornl.gov/"><span>Daymet</span></a></li>
+			<!-- <li><a href="https://carve.ornl.gov/visualize/"><span>CARVE Data Viewer</span></a></li> -->
+			<!-- <li><a href="/tools/airborne-data-visualizer/adv.html"><span>Airborne Data Visualizer</span></a></li> -->
+			<!-- <li><a href="/tools/airborne-data-visualizer-project-list/adv_viewer.html"><span>Airborne Data Visualizer</span></a></li> -->
+			<li><a href="https://daac.ornl.gov/tools/airborne-data-visualizer-project-list/"><span>Airborne Data Visualizer</span></a></li>
+			<li><a href="https://airmoss.ornl.gov/visualize/"><span>Soil Moisture Visualizer</span></a></li>
+			<li><a href="https://webmap.ornl.gov/qaqc/landwater/"><span>Land - Water Checker</span></a></li>
+			<!-- <li><a href="/cgi-bin/service_dataset_lister.pl?svc_id=1"><span>Spatial Data Access</span></a></li> -->
+			<!-- <li><a href="/cgi-bin/service_dataset_lister.pl?svc_id=2"><span>Spatial Data Access</span></a></li> -->
+			<!-- <li><a href="/spatial_data_access.shtml"><span>Spatial Data Access</span></a></li> -->
+			<!-- <li><a href="/webgis.shtml"><span>WebGIS</span></a></li> -->
+			<!-- <li><a href="/thredds.shtml"><span>THREDDS</span></a></li> -->
+			<!-- <li><a href="/cgi-bin/service_dataset_lister.pl?svc_id=4"><span>THREDDS</span></a></li> -->
+		</ul>
+	</li>
+	<!-- <li class="top"><a href="/tools/tools.html"><span>Tools</span></a></li> -->
+	<li class="top"><a href="https://daac.ornl.gov/resources/" class="top_link"><span class="down">Resources</span></a>
+		<ul class="sub">
+			<li><a href="https://daac.ornl.gov/resources/learning/"><span>Learning</span></a></li>
+			<li><a href="https://daac.ornl.gov/datamanagement/"><span>Data Management</span></a></li>
+			<li><a href="https://daac-news.ornl.gov/"><span>News</span></a></li>
+			<li><a href="https://forum.earthdata.nasa.gov/"><span>Earthdata Forum</span><span class="icon-external-link line-icon pad-left" title="external link"></span></a></li>
+		</ul>
+	</li>
+	<!-- <li class="top"><a href="/resources/resources.html"><span>Resources</span></a>
+		<ul class="sub">
+			<li><a href="/resources/learning/learning.html"><span>Learning</span></a></li>
+			<li><a href="/datamanagement/datamanagement.html"><span>Data Management</span></a></li>
+		</ul>
+	</li> -->
+	<li class="top nofoot"><a href="https://daac.ornl.gov/help/" class="top_link"><span class="down">Help</span></a></li>
+	<!-- <li class="top"><a href="/help/help.html">Help</a></li> -->
+	<li class="top notab"><a href="javascript:feedback.showForm();" class="top_link" title="User&#39;s Service Office" id="Contact"><span class="fa fa-comment fa-flip-horizontal fa-fw"></span><span class="down">Contact Us</span></a></li>
+</ul>
+</nav> <!-- end of menubox --><div id="signin" class="signin"><a class="top_link" href="https://daac.ornl.gov/cgi-bin/urs/urs_logout.pl" title="sign out"><span><span class="icon-signout icon-flip-horizontal"></span>Sign out</span></a></div></div> <!-- end of headerpicbox --><div class="menuBar"></div></header> <!-- end of headerbox container --><!-- Start Overlay -->
+<div id="overlay"></div>
+<!-- End Overlay -->
+
+<!-- Start Special Centered Box -->
+<div id="specialBox">
+
+  <span class="remove" onmousedown="toggleOverlay()" title="close search results overlay"> <span class="icon-remove"></span></span>
+
+  <div id="tabs" class="ui-tabs ui-corner-all ui-widget ui-widget-content">
+
+    <ul role="tablist" class="ui-tabs-nav ui-corner-all ui-helper-reset ui-helper-clearfix ui-widget-header">
+      <li role="tab" tabindex="0" class="ui-tabs-tab ui-corner-top ui-state-default ui-tab ui-tabs-active ui-state-active" aria-controls="cmr" aria-labelledby="ui-id-1" aria-selected="true" aria-expanded="true"><a href="https://daac.ornl.gov/CMS/guides/CMS_DARTE_V2.html#cmr" role="presentation" tabindex="-1" class="ui-tabs-anchor" id="ui-id-1">Data</a></li>
+      <li id="websiteTab" style="display: list-item;" role="tab" tabindex="-1" class="ui-tabs-tab ui-corner-top ui-state-default ui-tab" aria-controls="website" aria-labelledby="ui-id-2" aria-selected="false" aria-expanded="false"><a href="https://daac.ornl.gov/CMS/guides/CMS_DARTE_V2.html#website" role="presentation" tabindex="-1" class="ui-tabs-anchor" id="ui-id-2">Website</a></li>
+      <li id="mercuryTab" role="tab" tabindex="-1" class="ui-tabs-tab ui-corner-top ui-state-default ui-tab" aria-controls="mercury" aria-labelledby="ui-id-3" aria-selected="false" aria-expanded="false"><a href="https://daac.ornl.gov/CMS/guides/CMS_DARTE_V2.html#mercury" role="presentation" tabindex="-1" class="ui-tabs-anchor" id="ui-id-3">Mercury</a></li>
+    </ul>
+
+    <!-- CMR search results -->
+    <div id="cmr" aria-labelledby="ui-id-1" role="tabpanel" class="ui-tabs-panel ui-corner-bottom ui-widget-content" aria-hidden="false">
+      <div class="container">
+        <div class="content">
+          <div class="adv-link">
+            <a class="eui-btn--green" id="cmr-link" href="https://search.earthdata.nasa.gov/portal/ornldaac/search">Earthdata Search<span class="icon-external-link pad-left" title="external link"></span></a>
+          </div>
+          <div id="cmr-results" class="results"></div>
+        </div>
+      </div>
+    </div>
+    <!-- CMR search results -->
+
+    <!-- Google CSE search results -->
+    <div id="website" style="display: none;" aria-labelledby="ui-id-2" role="tabpanel" class="ui-tabs-panel ui-corner-bottom ui-widget-content" aria-hidden="true">
+      <div class="search">
+        <div class="search-results">
+          <div id="gcs-results" class="results"></div>
+          <hr>
+        </div>
+      </div>
+    </div>
+    <!-- Google CSE search results -->
+
+    <!-- Mercury search results -->
+    <div id="mercury" aria-labelledby="ui-id-3" role="tabpanel" class="ui-tabs-panel ui-corner-bottom ui-widget-content" aria-hidden="true" style="display: none;">
+      <div class="container">
+        <div class="content">
+          <div class="adv-link">
+            <a class="button" id="hg-link" href="javascript:M3Link(&#39;&amp;&#39;);">Advanced Data Search</a>
+          </div>
+          <div id="hg-results" class="results"></div>
+        </div>
+      </div>
+    </div>
+    <!-- Mercury search results -->
+
+  </div>
+</div>
+<!-- End Special Centered Box -->
+
+<div id="searchWrapper" class="headWrapper">
+  <div id="searchFrame" class="rightFrameSearch">
+    <form id="searchform" method="GET" action="https://search.earthdata.nasa.gov/search/" onsubmit="return getValue();">
+
+      <table id="searchTable" class="iconbar">
+        <tbody>
+          <tr>
+            <td>
+              <label for="term1" class="hidden">Search ORNL DAAC</label>
+              <input class="iconitem" type="text" id="term1" name="term1" size="30" placeholder="Search ORNL DAAC">
+              <label for="term1attribute" class="hidden">Use fullText search (only for fallback)</label>
+              <input type="hidden" id="term1attribute" name="term1attribute" value="fullText">
+              <label for="term6attribute" class="hidden">datasource (only for fallback)</label>
+              <input type="hidden" id="term6attribute" name="term6attribute" value="datasource">
+            </td>
+            <td>
+              <label for="term6" class="hidden">select source (only for fallback)</label>
+              <select id="term6" name="term6" size="1" class="iconitem" style="width: auto;">
+                <option value="daac">Data</option>
+                <option value="daacweb">Website</option>
+                <option value="doi">DOI</option>
+              </select>
+            </td>
+            <td><button id="go" type="submit" class="go eui-btn--green"><span class="icon-search pad-right"></span>Search</button></td>
+          </tr>
+        </tbody>
+      </table>
+
+    </form>
+
+  </div>
+
+  <hr>
+
+</div><div class="profileLinks"><span class="bartext">Welcome, Andrew:</span><a class="headerbutton" href="https://daac.ornl.gov/cart/show_cart.shtml" target="_blank" title="Your cart is empty."><span class="icon-shopping-cart pad-right"></span>Cart</a><a class="headerbutton" href="https://daac.ornl.gov/cgi-bin/history.pl" target="_blank" title="Show your order/download history."><span class="icon-repeat icon-flip-horizontal pad-right"></span>History</a><a class="headerbutton" href="https://daac.ornl.gov/cgi-bin/urs/urs_edit_profile_initiate.pl" title="Update your URS user profile."><span class="icon-user pad-right"></span>Profile</a></div><div id="crumbs" class="crumbs"><a href="https://daac.ornl.gov/">DAAC Home</a> &gt; <a href="https://daac.ornl.gov/get_data/">Get Data</a> &gt; <a href="https://daac.ornl.gov/get_data#projects">NASA Projects</a> &gt; <a href="https://daac.ornl.gov/cgi-bin/dataset_lister.pl?p=33">Carbon Monitoring System (CMS)</a> &gt; User guide</div><span id="main-content"></span><script>var tabToHighlight = "Get Data";</script>
+
+      
+      <div class="textarea">
+        <h1 class="pagetitle">
+          
+          DARTE Annual On-road CO2 Emissions on a 1-km Grid, Conterminous USA, V2, 1980-2017
+          
+        </h1>
+        <div class="mainarea guidearea">
+          <div class="get_data">
+            <a class="button" href="https://daac.ornl.gov/cgi-bin/dsviewer.pl?ds_id=1735">Get Data</a>
+          </div>
+          <p class="date">Documentation Revision Date:
+                                2019-11-01</p>
+          <p>
+            Dataset Version:
+            
+            2
+            
+          </p>
+          <h2>Summary</h2>
+          <div>
+            
+            This data set provides a 38-year, 1-km resolution inventory of annual on-road CO2 emissions for the conterminous United States based on roadway-level vehicle traffic data and state-specific emissions factors for multiple vehicle types on urban and rural roads as compiled in the Database of Road Transportation Emissions (DARTE). CO2 emissions from the on-road transportation sector are provided annually for 1980-2017 as a continuous surface at a spatial resolution of 1 km.
+            
+            
+            <p>DARTE is the first nationally consistent inventory of US on-road CO2 emissions built from bottom-up source activity data and establishes a national benchmark for monitoring, reporting, and verification of emissions that are vital for regulating greenhouse gases. The DARTE data&nbsp;provides&nbsp;insights into how urban areas contribute to climate change.</p>
+
+<p>DARTE combined the Federal Highway Administration's (FHWA's) Highway Performance Monitoring System (HPMS) roadway-level vehicle miles traveled with year- and state-specific emissions factors for five vehicle types on six classes of urban and rural roads. Vehicle emissions were estimated directly at the scale of individual road segments without the need to downsize emissions using spatial predictors. This approach helped to refine the uncertainty in the spatial distribution of road vehicle emissions and showed the highly nonlinear relationship between population density and emissions.</p>
+
+<p>Inventories are provided in 38 individual GeoTIFF files with 1-km spatial resolution. Each GeoTIFF file is a separate year of CO2 emission estimates. A GeoDatabase file containing all years of data is also included.</p>
+            
+          </div>
+          <div class="browse_block">
+            <a href="./DARTE Annual On-road CO2 Emissions on a 1-km Grid, Conterminous USA, V2, 1980-2017_files/CMS_DARTE_V2_Fig1.png">
+              <img class="browse_image" src="./DARTE Annual On-road CO2 Emissions on a 1-km Grid, Conterminous USA, V2, 1980-2017_files/CMS_DARTE_V2_Fig1.png">
+            </a>
+            <p class="caption">
+              
+              Figure 1. Map of DARTE 2017 on-road CO2 emissions for the conterminous United States.
+              
+            </p>
+          </div>
+          <h2>Citation</h2>
+          <p class="citation">
+            Gately, C., L.R. Hutyra, and I.S. Wing. 2019. DARTE Annual On-road CO2 Emissions on a 1-km Grid, Conterminous USA, V2, 1980-2017. ORNL DAAC, Oak Ridge, Tennessee, USA.
+            <a href="https://doi.org/10.3334/ORNLDAAC/1735">https://doi.org/10.3334/ORNLDAAC/1735</a>
+          </p>
+          <h2 class="countheads">Table of Contents</h2>
+          <ol>
+            <li>
+              <a href="https://daac.ornl.gov/CMS/guides/CMS_DARTE_V2.html#datasetoverview">Dataset Overview</a>
+            </li>
+            <li>
+              <a href="https://daac.ornl.gov/CMS/guides/CMS_DARTE_V2.html#datacharact">Data Characteristics</a>
+            </li>
+            <li>
+              <a href="https://daac.ornl.gov/CMS/guides/CMS_DARTE_V2.html#appderivation">Application and Derivation</a>
+            </li>
+            <li>
+              <a href="https://daac.ornl.gov/CMS/guides/CMS_DARTE_V2.html#qualityassess">Quality Assessment</a>
+            </li>
+            <li>
+              <a href="https://daac.ornl.gov/CMS/guides/CMS_DARTE_V2.html#acqmatmethods">Data Acquisition, Materials, and Methods</a>
+            </li>
+            <li>
+              <a href="https://daac.ornl.gov/CMS/guides/CMS_DARTE_V2.html#datadescraccess">Data Access</a>
+            </li>
+            <li>
+              <a href="https://daac.ornl.gov/CMS/guides/CMS_DARTE_V2.html#references">References</a>
+            </li>
+            <li>
+              <a href="https://daac.ornl.gov/CMS/guides/CMS_DARTE_V2.html#revisions">Dataset Revisions</a>
+            </li>
+          </ol>
+          <h2 id="datasetoverview" class="countheads">Dataset Overview</h2>
+          <div>
+            
+            <p>This data set provides a 38-year, 1-km resolution inventory of annual on-road CO2 emissions for the conterminous United States based on roadway-level vehicle traffic data and state-specific emissions factors for multiple vehicle types on urban and rural roads as compiled in the Database of Road Transportation Emissions (DARTE). CO2 emissions from the on-road transportation sector are provided annually for 1980-2017 as a continuous surface at a spatial resolution of 1 km.</p>
+
+<p>DARTE is the first nationally consistent inventory of US on-road CO2 emissions built from bottom-up source activity data and establishes a national benchmark for monitoring, reporting, and verification of emissions that are vital for regulating greenhouse gases.&nbsp;The DARTE data&nbsp;provides&nbsp;insights into how urban areas contribute to climate change.</p>
+
+<p>DARTE combined the Federal Highway Administration's (FHWA's) Highway Performance Monitoring System (HPMS) roadway-level vehicle miles traveled with year- and state-specific emissions factors for five vehicle types on six classes of urban and rural roads. Vehicle emissions were estimated directly at the scale of individual road segments without the need to downsize emissions using spatial predictors.&nbsp;This approach helped to refine the uncertainty in the spatial distribution of road vehicle emissions and showed the highly nonlinear relationship between population density and emissions.</p>
+
+<p><strong>Project:&nbsp;</strong><a href="http://daac.ornl.gov/cgi-bin/dataset_lister.pl?p=33">Carbon Monitoring System (CMS)</a></p>
+
+<p>The NASA Carbon Monitoring System (CMS) is designed to make significant contributions in characterizing, quantifying, understanding, and predicting the evolution of global carbon sources and sinks through improved monitoring of carbon stocks and fluxes. The System will use the full range of NASA satellite observations and modeling/analysis capabilities to establish the accuracy, quantitative uncertainties, and utility of products for supporting national and international policy, regulatory, and management activities. CMS will maintain a global emphasis while providing finer scale regional information, utilizing space-based and surface-based data and will rapidly initiate generation and distribution of products both for user evaluation and to inform near-term policy development and planning.</p>
+
+<p><strong>Related Dataset:</strong></p>
+
+<p>Gately, C., and L.R. Hutyra. 2018. CMS: CO2 Emissions from Fossil Fuels Combustion, ACES Inventory for Northeastern USA. ORNL DAAC, Oak Ridge, Tennessee, USA. <a href="https://doi.org/10.3334/ORNLDAAC/1501">https://doi.org/10.3334/ORNLDAAC/1501</a></p>
+
+<p><strong>Acknowledgements:</strong></p>
+
+<p>This project was funded by NASA’s Interdisciplinary Science (IDS) and Carbon Monitoring System (CMS) programs, and NOAA’s Atmospheric Chemistry Carbon Cycle and Climate program under the CO2-Urban Synthesis and Analysis (CO2-USA) project.</p>
+            
+          </div>
+          <h2 id="datacharact" class="countheads">Data Characteristics</h2>
+          <div>
+            
+            <p><strong>Spatial Coverage</strong>: Conterminous United States</p>
+
+<p><strong>Spatial Resolution</strong>: 1-km resolution</p>
+
+<p><strong>Temporal Coverage</strong>: The data cover the period 1980-01-01 to 2017-12-31</p>
+
+<p><strong>Temporal Resolution</strong>: Annual</p>
+
+<p><strong>Study Area:</strong>&nbsp;(All latitudes and longitudes given in decimal degrees)</p>
+
+<table border="1">
+	<tbody>
+		<tr>
+			<td>
+			<p><strong>Site</strong></p>
+			</td>
+			<td>
+			<p><strong>Westernmost Longitude</strong></p>
+			</td>
+			<td>
+			<p><strong>Easternmost Longitude</strong></p>
+			</td>
+			<td>
+			<p><strong>Northernmost Latitude</strong></p>
+			</td>
+			<td>
+			<p><strong>Southernmost Latitude</strong></p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<p><strong>Conterminous United States</strong></p>
+			</td>
+			<td>
+			<p>-137.257</p>
+			</td>
+			<td>
+			<p>-62.0377</p>
+			</td>
+			<td>
+			<p>53.3863</p>
+			</td>
+			<td>
+			<p>22.0928</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+
+<p><strong>Data File Information&nbsp;</strong></p>
+
+<p>Inventories are provided in 38 individual GeoTIFF files; each GeoTIFF file is a separate year of CO2 emission estimates.&nbsp;&nbsp;A GeoDatabase file containing all years of data (<em>DARTE_v2.gdb.zip)&nbsp;</em>is also included.&nbsp;</p>
+
+<p><u>GeoTIFF files</u></p>
+
+<p>GeoTIFF files are named <em>onroad_YYYY.tif</em>, where YYYY is the year 1980 - 2017, respectively. CO2 emissions are in units of kilograms per square kilometer of CO2 emitted per year.</p>
+
+<p>Spatial Representation Type: Raster<br>
+Pixel Depth: 64 bit<br>
+Pixel Type: float<br>
+Number of Bands: 1<br>
+Source Type: continuous</p>
+
+<p>Nodata Value:&nbsp;-9999.0<br>
+Scale Factor: none<br>
+Offset: none<br>
+Endian Type: NA<br>
+Number Columns: 5,070<br>
+Column Resolution: 1,000 meter<br>
+Number Rows: 3,560<br>
+Row Resolution: 1,000 meter</p>
+
+<p>Extent in the items coordinate system<br>
+North: 1952000<br>
+South: -1608000<br>
+West: -2736000<br>
+East: 2334000</p>
+
+<p>Projection: &nbsp; Lambert_Conformal_Conic<br>
+False_Easting: &nbsp; 0.00000000<br>
+False_Northing:&nbsp; 0.00000000<br>
+Central_Meridian:&nbsp; -97.00000000<br>
+Standard_Parallel_1:&nbsp; 33.00000000<br>
+Standard_Parallel_2:&nbsp; 45.00000000<br>
+Scale_Factor: &nbsp; 1.00000000<br>
+Latitude_Of_Origin:&nbsp; 40.00000000<br>
+Linear Unit: &nbsp; Meter</p>
+
+<p>Geographic Coordinate System: GCS_WGS_1984<br>
+Datum:&nbsp; D_WGS_1984<br>
+Prime Meridian:&nbsp; Greenwich<br>
+Angular Unit:&nbsp; Degree</p>
+
+<p>Extent in the data file coordinate system:</p>
+
+<p>Top:&nbsp; 1952000 m<br>
+Right:&nbsp; 2334000 m<br>
+Left:&nbsp; -2736000 m<br>
+Bottom: &nbsp; -1608000 m</p>
+
+<p>&nbsp;</p>
+
+<p><u>Geodatabase File:</u></p>
+
+<p>The DARTEv2 emissions estimates are also available aggregated to U.S. 2010 Census Block Group polygons. These data are provided in the <em>DARTEv2.gdb.zip</em> file, which is a zipped ESRI file geodatabase. This file can be opened using the ESRI ArcGIS software or using open-source software such as QGIS or OGR/GDAL. This file is the source data for the data visualizations and analysis featured here: <a href="https://www.nytimes.com/interactive/2019/10/10/climate/driving-emissions-map.html">https://www.nytimes.com/interactive/2019/10/10/climate/driving-emissions-map.html</a></p>
+
+<p>The DARTEv2.gdb contains the polygon feature class: <em>DARTE_v2_blockgroup_kgco2_1980_2017</em>. The attribute table for the feature class contains a column for each year’s annual emissions, and a unique numeric identifier for each Census Block Group. Units for the data are total emissions in kilograms CO<sub>2</sub> per year for each Block Group. The emissions are not normalized by area. The attribute table contains an additional column, “bg_area_m2”, which reports the area of each Block Group polygon in square meters, if users wish to normalize by area. <em>Note that the file contains Block Groups for Alaska, Hawaii, and Puerto Rico. However, emissions are reported as zero for these Block Groups, as these states were not included in the DARTEv2 emissions estimates.</em></p>
+
+<p>The source for the Block Group spatial geography is the 2016 U.S. Census American Community Survey Block Group Shapefile. That file is available for download at:&nbsp;<a href="https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-data.2016.html">https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-data.2016.html</a><br>
+or at:&nbsp;<a href="https://www2.census.gov/geo/tiger/TIGER_DP/2016ACS/ACS_2016_5YR_BG.gdb.zip">https://www2.census.gov/geo/tiger/TIGER_DP/2016ACS/ACS_2016_5YR_BG.gdb.zip</a></p>
+            
+          </div>
+          <h2 id="appderivation" class="countheads">Application and Derivation</h2>
+          <div>
+            
+            <p>Although the United States has 5% of the world's population and 30% of the world's automobiles, it emits 45% of global transportation CO2 emissions (1.57 billion metric tons in 2012).&nbsp;These emissions account for 28% of US fossil fuel CO2 emissions.&nbsp;Despite the large contributions of on-road emissions, the spatial distribution of emissions are highly uncertain and poorly quantified especially at substate and urban scales. Reducing the uncertainty of on-road CO2 emissions at finer spatial scales is central to understanding the determinants of motor vehicle emissions, constraining carbon budgets, and supporting greenhouse gas emission monitoring and abatement, particularly at the scale of cities.&nbsp; DARTE can provide valuable information to local and regional climate change mitigation initiatives by providing detailed city-scale greenhouse gas emissions estimates and a tool to assess response to policy.&nbsp; DARTE's bottom-up approach differs markedly from other emissions estimates that rely on population as a linear predictor of vehicle activity.&nbsp; DARTE was used to quantify the spatiotemporal varying effects of population density, income, employment and transit use on on-road CO2 emissions across the United States.&nbsp; DARTE is derived from HPMS roadway-level vehicle miles traveled (VMT) combined with year- and state-specific emissions factors for five vehicle types to calculate CO2 emissions from motor gasoline and diesel fuel consumption on six classes of urban and rural roads.</p>
+            
+          </div>
+          <h2 id="qualityassess" class="countheads">Quality Assessment</h2>
+          <div>
+            
+            <p>Within the HPMS database, the annual vehicle miles traveled (VMT) information was inspected by county and functional class to identify potential outliers or structural breaks in the dataset.&nbsp; A filtering algorithm flagged any observation in an individual county/functional class time series if the magnitude of the year-on-year difference between an observation and adjacent years was greater than two standard deviations from the mean year-on-year difference of that time series.&nbsp; Of the 761,759 observations in the dataset, roughly 10% were flagged and replaced by the filtering procedure.</p>
+
+<p>Direct quantification of the uncertainty in US on-road emissions is made impossible by the absence of independent data sources against which to compare government estimates.&nbsp; Further external validation of emission inventories is hampered by the lack of independent measurements of source activity, but it is informative to compare the effects of different model methodologies and proxy performance on the consistency of emissions estimates.&nbsp; Because DARTE estimates were not calculated using population or road density, we were able to evaluate the performance of these variables as spatial predictors by comparing DARTE with other well-known inventories. We aggregated DARTE’s roadway-scale emissions so that we could compare directly to&nbsp;the native resolutions of EDGAR and the Vulcan Project.&nbsp; Comparing DARTE with these existing downscaled inventories, biases of 100% or more were found in the spatial distribution of urban and rural emissions.&nbsp; These biases were mainly the result of mismatches between inventory downscaling proxies and the actual spatial patterns of vehicle activity at urban scales.&nbsp; The DARTE 1-km grid cells nest exactly within the Vulcan Product’s 10-km grid cells for ease of comparison and combination.</p>
+            
+          </div>
+          <h2 id="acqmatmethods" class="countheads">Data Acquisition, Materials, and Methods</h2>
+          <div>
+            
+            <p><u><strong>DARTE Version 1 development steps:</strong></u></p>
+
+<p>A full description of the procedure and analyses of results are provided in Gately et al. (2015).</p>
+
+<p>The Highway Performance Monitoring System (HPMS) is a traffic monitoring program overseen by the Federal Highway Administration. All U.S. states and the District of Columbia are required to submit annual estimates for a wide variety of traffic and highway condition data to HPMS in compliance with federal statute. This data has been archived in a digital tabular format since 1980. The HPMS dataset used to generate the 1980-2012 emissions estimates in DARTE is well described in the archived versions of the HPMS Field Manual.&nbsp;The core data features of the HPMS are individual road segments that are defined by the state transportation departments. For each road segment HPMS reports the center-line length in miles, annual average daily traffic (AADT), functional class, urban/rural context, and county. AADT is a measure of the number of vehicles that traverse the road segment on an average day, adjusted for seasonal and day-of-week variation. For 2013-2017, HPMS became available in shapefile format from FHWA. Data for each road in the national shapefile was aggregated by functional class, county, and urban area to remain consistent with the 1980-2009 data.</p>
+
+<p>Annual vehicle miles travelled (VMT) on each road segment was calculated by multiplying AADT by the length of the road segment and then by 365 days (or 366 days for leap years). Road-segment VMT were aggregated to the lowest common level of geography including&nbsp;12 roadway functional classes included in HPMS, six for urban roads and six for rural roads.&nbsp;HPMS data were aggregated to counties by using the reported functional classes and a geocoded road network for the U.S. that is also partitioned by these functional classes.&nbsp;State-level VMT data for rural local roads were integrated into the county-level database by allocating state totals by functional class to each county.&nbsp;</p>
+
+<p>For each year, county, and functional class, annual VMT from HPMS were partitioned into the five vehicle types used by the Highway Statistics Series Table VM-4: Passenger cars, passenger trucks (SUV, pickups, minivans), buses, single-unit trucks, and combination trucks.&nbsp; VMT was then used to calculate fuel use and associated CO2 emissions. A calibrated fuel economy and VMT by vehicle type was used to calculate gallons of motor gasoline and diesel fuel consumption, for each year, county, and road functional class. For each road in the database, the annual time series of fuel consumption was then smoothed using a loess (locally-estimated scatterplot smoothing) algorithm to reduce inter-annual noise arising from data gaps and periodic road reclassification. For each state, annual fuel consumption for each road was then scaled such that the sum of all roads’ fuel consumption was equal to the published state totals in FHWA Highway Statistics Series Table MF-21. The motor gasoline and diesel fuel consumption were then converted to CO2 emissions using emission factors from EIA. Emissions were assigned to a geographic information system (GIS) layer of the US road network obtained from the 2016 Census TIGER/Line geodatabase. This road network layer was then aggregated to a 1 x 1 km spatial grid.</p>
+
+<p><u><strong>Updates for Version 2:</strong></u></p>
+
+<p>This new update to the DARTE dataset extends the time series of annual emissions up through the year 2017. The data sources and methodology are largely unchanged, although a few modifications were necessary to improve accuracy while also maintaining consistency with the first DARTE release. First, the base road network was changed to the 2016 TIGER road shapefile for the U.S. All emissions estimates from the first release (1980-2012) as well as the second release (2013-2017) were assigned to this single road shapefile.&nbsp;</p>
+
+<p>For the years 2013-2017, data on vehicle miles travelled (VMT) were obtained from the GIS shapefiles that are now available from the FHWA HPMS division. These road-level data were then aggregated by county and functional class, to maintain consistency with the VMT data aggregation in the first DARTE release. However, the VMT totals in the 2013-2017 shapefiles do not sum to the statewide totals reported by the FHWA in the Highway Statistics Series, which was used as a control total in the first release of DARTE. We therefore calculated the difference in VMT between the shapefile totals and the state totals for each functional class, and assigned these amounts uniformly across that class of roads in each county, based on that county's share of state total VMT for that functional class. This method is the same as was used in the first release of DARTE to assign VMT from the HPMS local road summary files.&nbsp;For further details, see the Supporting Information in Gately et al. (2015).</p>
+
+<p>The final major difference in methodology for this new release was that we have now adjusted the total consumption of motor gasoline and diesel fuel estimated by DARTE for each state and year to match exactly the reported state totals in the Highway Statistics Series Table MF-21. In the first release, this adjustment was made using a complex procedure that optimized vehicle fuel economies and fleet characteristics such that each year's DARTE estimates were within 5% of the MF-21 totals. In this release, we simplified the approach by making initial estimates of fuel consumption using the vehicle fuel economies and vehicle fleet characteristics as reported in Highway Statistics Series Tables VM-1 and VM-4, respectively. These estimates are then adjusted to match the MF-21 state totals exactly by scaling the individual estimates for each county, road functional class, and fuel type by vehicle as shown below:</p>
+
+<p><img alt="equation" src="./DARTE Annual On-road CO2 Emissions on a 1-km Grid, Conterminous USA, V2, 1980-2017_files/CMS_DARTE_V2_Fig2.png" style="width:250px"></p>
+
+<p>This adjustment was done for all years in the dataset (1980-2017), and thus the totals for the years 1980-2012 have now changed slightly and will not match the older release. All data files in the current release available here use the new method.</p>
+
+<p><u><strong>DARTE V2 Census Block Group Geography:</strong></u></p>
+
+<p>The DARTEv2 emissions estimates are also available aggregated to U.S. Census Block Group polygons. These data are provided in the <em>DARTEv2.gdb.zip</em> file. To aggregate the DARTE V2 data to Census Blocks, the authors used&nbsp;a similar method to that used to aggregate to the 1 x 1 km grid. Roadway-scale emissions of kilograms CO<sub>2</sub> per meter of road segment comprise the base level estimates in the DARTEv2 database. These data are represented as a large spatial polyline feature. This polyline was intersected with the Census Block Group polygons. For each Census Block Group, the per-meter emissions for each road segment were then multiplied by the length of the road segment that falls within the Block Group. Total emissions for each road segment were then summed across all road segments in the Block Group to obtain the total emissions for each Block Group for each year.&nbsp;</p>
+            
+          </div>
+          <h2 id="datadescraccess" class="countheads">Data Access</h2>
+          <p>These data are available through the Oak Ridge National Laboratory (ORNL) Distributed Active
+                                Archive Center
+                                (DAAC).</p>
+          <p>
+            <a href="https://daac.ornl.gov/cgi-bin/dsviewer.pl?ds_id=1735">
+              
+              DARTE Annual On-road CO2 Emissions on a 1-km Grid, Conterminous USA, V2, 1980-2017
+              
+            </a>
+          </p>
+          <p>Contact for Data Center Access Information:</p>
+          <ul class="contact_info">
+            <li>
+              E-mail:
+              <a href="mailto:uso@daac.ornl.gov">uso@daac.ornl.gov</a>
+            </li>
+            <li>Telephone: +1 (865) 241-3952</li>
+          </ul>
+          <h2 id="references" class="countheads">References</h2>
+          <div>
+            
+            <p>Gately, C.K. et al., PNAS, 2015.&nbsp; Cities, traffic, and CO2: A multidecadal assessment of trends, drivers and scaling relationships. vol. 112 no. 16:4999-5004.&nbsp; <a href="https://doi.org/10.1073/pnas.1421723112">https://doi.org/</a><a href="http://dx.doi.org/10.1073/pnas.1421723112">10.1073/pnas.1421723112</a></p>
+
+<p>Gurney KR, et al. (2009) High resolution fossil fuel combustion CO2 emission fluxes for the United States. Environ Sci Technol 43:5535–5541. <a href="https://doi.org/10.1021/es900806c">https://doi.org/</a><a href="http://dx.doi.org/10.1021/es900806c">10.1021/es900806c</a></p>
+
+<p>Highway Performance Monitoring System Field Manual. Office of Highway Policy Information, Federal Highway Administration, Washington DC, 2019. URL: <a href="https://www.fhwa.dot.gov/policyinformation/hpms/fieldmanual/">https://www.fhwa.dot.gov/policyinformation/hpms/fieldmanual/</a></p>
+
+<p>Highway Statistics Series, Table MF-21; 1980−2017; Federal Highway Administration: Washington, DC.&nbsp;<a href="http://www.fhwa.dot.gov/policyinformation/statistics">http://www.fhwa.dot.gov/policyinformation/statistics</a>. Accessed July 1, 2019.</p>
+
+<p>Highway Statistics Series, Table VM-4; 1980−2017; Federal Highway Administration: Washington, DC.&nbsp;&nbsp;<a href="http://www.fhwa.dot.gov/policyinformation/statistics">http://www.fhwa.dot.gov/policyinformation/statistics</a>.&nbsp; Accessed July 1, 2019.</p>
+
+<p>JRC/PBL (2011) Emission Database for Global Atmospheric Research (EDGAR) (European Comission, Joint Research Centre/Netherlands Environmental Assessment Agency, Ispra, Italy), Version 4.2 Available at&nbsp;<a href="http://edgar.jrc.ec.europa.eu/">edgar.jrc.ec.europa.eu</a>. Accessed May 1, 2014.</p>
+
+<p>US Census Bureau (2016) TIGER/Line Shapefiles (US Census Bureau, Washington DC).&nbsp; Available at <a href="https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-geodatabase-file.2016.html">https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-geodatabase-file.2016.html</a> Accessed July 1, 2019.</p>
+
+<p>US Environmental Protection Agency, Emissions Factor Hub.&nbsp;<a href="https://www.epa.gov/climateleadership/center-corporate-climate-leadership-ghg-emission-factors-hub">https://www.epa.gov/climateleadership/center-corporate-climate-leadership-ghg-emission-factors-hub</a>&nbsp;Accessed July 1, 2019</p>
+
+<p>US Energy Information Administration, Carbon Dioxide Emissions Factors. <a href="https://www.eia.gov/tools/faqs/faq.php?id=307&amp;t=1">https://www.eia.gov/tools/faqs/faq.php?id=307&amp;t=1</a></p>
+            
+          </div>
+          <h2 id="revisions" class="countheads">Dataset Revisions</h2>
+          
+          <table>
+	<tbody>
+		<tr>
+			<th>
+			<p>DARTE Version</p>
+			</th>
+			<th>Release Date</th>
+			<th>Description of Changes</th>
+		</tr>
+		<tr>
+			<td>Version 2</td>
+			<td>2019-09-27</td>
+			<td>Released revised data for years 1980 - 2012 and added data for years 2013-2017.</td>
+		</tr>
+		<tr>
+			<td>Version 1</td>
+			<td>2015-09-24</td>
+			<td>ORNL DAAC released annual gridded data for years 1980 - 2012.</td>
+		</tr>
+	</tbody>
+</table>
+          
+        <button class="eui-btn back-to-top" id="backToTop" title="top of page" style="display: none;"><span class="icon-level-up icon-flip-horizontal line-icon pad-right"></span>back to top</button></div>
+      </div>
+      
+      <footer>
+  <div class="headWrapper" id="footerWrapper">
+    <div id="main-footer">
+      <!-- left section -->
+      <div class="mainFooterLeft">
+        <a href="https://www.ornl.gov/" title="www.ornl.gov">
+          <!-- <object type="image/svg+xml" alt="ORNL home page" data="/graphics/logos/ORNL_33_opt.svg"> -->
+          <img alt="ORNL home page" src="./DARTE Annual On-road CO2 Emissions on a 1-km Grid, Conterminous USA, V2, 1980-2017_files/ORNL_twoline.png"> <!-- </object> -->
+        </a>
+      </div>
+
+      <!-- middle section -->
+      <div class="mainFooterMiddle">
+        <a href="https://www.nasa.gov/about/highlights/HP_Privacy.html" class="foot-link">Privacy Policy</a><span class="foot-link">
+          | </span> <a href="javascript:feedback.showForm();" class="foot-link">Feedback</a><span class="foot-link"> |
+        </span> <a href="https://daac.ornl.gov/help/" class="foot-link">Help</a>
+      </div>
+
+      <!-- right section -->
+      <div class="mainFooterRight">
+        <a class="usa-link-twitter" href="https://twitter.com/NASAEarthData" title="Follow us @NASAEarthData"> <span class="fa fa-twitter-square" aria-hidden="true"></span><span class="sr-only">Follow us @NASAEarthData</span></a>
+        <a class="usa-link-youtube" href="https://www.youtube.com/channel/UCrZ-Cgk3DfiLPfHEReLzCfg/feed" title="NASAEarthData on YouTube">
+          <span class="fa fa-youtube-square" aria-hidden="true"></span><span class="sr-only">NASAEarthData on
+            YouTube</span></a>
+        <a class="usa-link-facebook" href="https://www.facebook.com/NASAEarthData" title="Like us on Facebook"> <span class="fa fa-facebook-square" aria-hidden="true"></span><span class="sr-only">Like us on Facebook</span></a>
+        <a class="usa-social_link" href="https://github.com/ornldaac" title="ORNL DAAC on GitHub"> <span class="fa fa-github-square" aria-hidden="true"></span><span class="sr-only">ORNL DAAC on GitHub</span></a>
+        <a class="usa-link-rss" href="https://daac-news.ornl.gov/rss.xml" title="ORNL DAAC News RSS Feed"> <span class="fa fa-rss-square" aria-hidden="true"></span><span class="sr-only">ORNL DAAC News RSS Feed</span></a>
+      </div>
+    </div>
+    <!--main-footer-->
+
+    <div class="big-foot">
+      <ul class="nav">
+	<li class="top first home"><a class="top_link" href="https://daac.ornl.gov/" title="ORNL DAAC home"><span class="fa fa-home fa-fw"></span><span class="home_text down">Home</span></a>
+	</li>
+	<li class="top"><a href="https://daac.ornl.gov/about/" class="top_link"><span class="down">About Us</span></a>
+		<ul class="sub">
+			<!-- <li><a href="/about_us.shtml"><span>About ORNL DAAC</span></a></li> -->
+			<!-- <li><a href="/who.shtml"><span>Who We Are</span></a></li> -->
+			<!-- <li><a href="/partners.html"><span>Partners</span></a></li> -->
+			<!-- <li><a href="/about/biogeochem/"><span>Biogeochemical Dynamics</span></a></li> -->
+			<li><a href="https://daac.ornl.gov/about#mission"><span>Mission</span></a></li>
+			<li><a href="https://daac.ornl.gov/about#citation_policy"><span>Data Use and Citation Policy</span></a></li>
+			<li><a href="https://daac.ornl.gov/about#uwg"><span>User Working Group</span></a></li>
+			<li><a href="https://daac.ornl.gov/about#partners"><span>Partners</span></a></li>
+		</ul>
+	</li>
+	<!-- <li class="top"><a href="/about/about_us.html"><span>About Us</span></a></li> -->
+	<li class="top active current"><a href="https://daac.ornl.gov/get_data/" class="top_link"><span class="down">Get Data</span></a>
+		<ul class="sub">
+			<!--<li><a href="/get_data#datasearch" class="fly"><span>Search for Data</span></a>
+				<ul>
+					<li><a href="/daacdata"><span>Browse Data</span></a></li>
+				</ul>
+			</li>-->
+			<li><a href="https://daac.ornl.gov/get_data#themes" class="fly"><span>Science Themes</span></a>
+				<ul>
+					<li><a href="https://daac.ornl.gov/cgi-bin/theme_dataset_lister.pl?theme_id=1"><span>Vegetation and Forests</span></a></li>
+					<li><a href="https://daac.ornl.gov/cgi-bin/theme_dataset_lister.pl?theme_id=2"><span>Arctic Ecosystems</span></a></li>
+					<li><a href="https://daac.ornl.gov/cgi-bin/theme_dataset_lister.pl?theme_id=3"><span>Soils</span></a></li>
+					<li><a href="https://daac.ornl.gov/cgi-bin/theme_dataset_lister.pl?theme_id=4"><span>Carbon Cycle</span></a></li>
+					<li><a href="https://daac.ornl.gov/cgi-bin/theme_dataset_lister.pl?theme_id=5"><span>Biomass</span></a></li>
+					<li><a href="https://daac.ornl.gov/cgi-bin/theme_dataset_lister.pl?theme_id=6"><span>Land Use and Human Dimensions</span></a></li>
+					<li><a href="https://daac.ornl.gov/cgi-bin/theme_dataset_lister.pl?theme_id=7"><span>Hydrology and Cryosphere</span></a></li>
+					<li><a href="https://daac.ornl.gov/cgi-bin/theme_dataset_lister.pl?theme_id=8"><span>Fire</span></a></li>
+					<li><a href="https://daac.ornl.gov/cgi-bin/theme_dataset_lister.pl?theme_id=9"><span>Climate</span></a></li>
+				</ul>
+			</li>
+			<li><a href="https://daac.ornl.gov/get_data#projects" class="fly"><span>NASA Projects</span></a>
+				<ul>
+					<li><a href="https://daac.ornl.gov/cgi-bin/dataset_lister.pl?p=1"><span>BigFoot</span></a></li>
+					<li><a href="https://daac.ornl.gov/cgi-bin/dataset_lister.pl?p=10"><span>Hydroclimatology Collection</span></a></li>
+					<li><a href="https://daac.ornl.gov/cgi-bin/dataset_lister.pl?p=11"><span>Large Scale Biosphere-Atmosphere Experiment (LBA-ECO)</span></a></li>
+					<li><a href="https://daac.ornl.gov/cgi-bin/dataset_lister.pl?p=12"><span>MODIS Land Products Subsets</span></a></li>
+					<li><a href="https://daac.ornl.gov/cgi-bin/dataset_lister.pl?p=13"><span>Net Primary Productivity (NPP)</span></a></li>
+					<li><a href="https://daac.ornl.gov/cgi-bin/dataset_lister.pl?p=14"><span>Oregon Transect Ecosystem Research Project (OTTER)</span></a></li>
+					<li><a href="https://daac.ornl.gov/cgi-bin/dataset_lister.pl?p=15"><span>Prototype Validation Exercise (PROVE)</span></a></li>
+					<!-- <li><a href="/cgi-bin/dataset_lister.pl?p=16"><span>River Discharge (RIVDIS)</span></a></li> -->
+					<!-- <li><a href="/cgi-bin/dataset_lister.pl?p=17"><span>Russian Land Cover (RLC)</span></a></li> -->
+					<li><a href="https://daac.ornl.gov/cgi-bin/dataset_lister.pl?p=18"><span>Southern African Regional Science Initiative Project (SAFARI 2000)</span></a></li>
+					<li><a href="https://daac.ornl.gov/cgi-bin/dataset_lister.pl?p=19"><span>Soil Collection</span></a></li>
+					<li><a href="https://daac.ornl.gov/cgi-bin/dataset_lister.pl?p=2"><span>Boreal Ecosystem-Atmosphere Study (BOREAS)</span></a></li>
+					<li><a href="https://daac.ornl.gov/cgi-bin/dataset_lister.pl?p=20"><span>Superior National Forest</span></a></li>
+					<li><a href="https://daac.ornl.gov/cgi-bin/dataset_lister.pl?p=21"><span>Vegetation Collection</span></a></li>
+					<li><a href="https://daac.ornl.gov/cgi-bin/dataset_lister.pl?p=22"><span>Vegetation-Ecosystem Modeling and Analysis Project (VEMAP)</span></a></li>
+					<!-- <li><a href="/cgi-bin/dataset_lister.pl?p=25"><span>Unknown</span></a></li> -->
+					<li><a href="https://daac.ornl.gov/cgi-bin/dataset_lister.pl?p=27"><span>Model Archive</span></a></li>
+					<li><a href="https://daac.ornl.gov/cgi-bin/dataset_lister.pl?p=28"><span>North American Carbon Program (NACP)</span></a></li>
+					<li><a href="https://daac.ornl.gov/cgi-bin/dataset_lister.pl?p=29"><span>International Satellite Land Surface Climatology Project (ISLSCP II)</span></a></li>
+					<!-- <li><a href="/cgi-bin/dataset_lister.pl?p=3"><span>Boreal Ecosystem-Atmosphere Study (BOREAS) Follow On</span></a></li> -->
+					<li><a href="https://daac.ornl.gov/cgi-bin/dataset_lister.pl?p=30"><span>Atmospheric Tracer Transport Model Intercomparison Project (TransCom)</span></a></li>
+					<li><a href="https://daac.ornl.gov/cgi-bin/dataset_lister.pl?p=31"><span>Services</span></a></li>
+					<li><a href="https://daac.ornl.gov/cgi-bin/dataset_lister.pl?p=32"><span>Daymet</span></a></li>
+					<li><a href="https://daac.ornl.gov/cgi-bin/dataset_lister.pl?p=33"><span>Carbon Monitoring System (CMS)</span></a></li>
+					<li><a href="https://daac.ornl.gov/cgi-bin/dataset_lister.pl?p=34"><span>Arctic-Boreal Vulnerability Experiment (ABoVE)</span></a></li>
+					<li><a href="https://daac.ornl.gov/cgi-bin/dataset_lister.pl?p=35"><span>Carbon in Arctic Reservoirs Vulnerability Experiment (CARVE)</span></a></li>
+					<li><a href="https://daac.ornl.gov/cgi-bin/dataset_lister.pl?p=36"><span>Airborne Microwave Observatory of Subcanopy and Subsurface (AirMOSS)</span></a></li>
+					<li><a href="https://daac.ornl.gov/cgi-bin/dataset_lister.pl?p=37"><span>Atmospheric Carbon and Transport - America (ACT-America)</span></a></li>
+					<li><a href="https://daac.ornl.gov/cgi-bin/dataset_lister.pl?p=38"><span>AfriSAR</span></a></li>
+					<li><a href="https://daac.ornl.gov/cgi-bin/dataset_lister.pl?p=39"><span>Atmospheric Tomography Mission (ATom)</span></a></li>
+					<li><a href="https://daac.ornl.gov/cgi-bin/dataset_lister.pl?p=4"><span>Accelerated Canopy Chemistry Program (ACCP)</span></a></li>
+					<li><a href="https://daac.ornl.gov/cgi-bin/dataset_lister.pl?p=40"><span>Global Ecosystem Dynamics Investigation (GEDI)</span></a></li>
+					<li><a href="https://daac.ornl.gov/cgi-bin/dataset_lister.pl?p=41"><span>Delta-X</span></a></li>
+					<li><a href="https://daac.ornl.gov/cgi-bin/dataset_lister.pl?p=42"><span>SIF-ESDR</span></a></li>
+					<li><a href="https://daac.ornl.gov/cgi-bin/dataset_lister.pl?p=43"><span>MODIS/ASTER Airborne Simulator (MASTER)</span></a></li>
+					<li><a href="https://daac.ornl.gov/cgi-bin/dataset_lister.pl?p=44"><span>CARbon Atmosphere Flux Experiment (CARAFE)</span></a></li>
+					<li><a href="https://daac.ornl.gov/cgi-bin/dataset_lister.pl?p=5"><span>Climate Collection</span></a></li>
+					<li><a href="https://daac.ornl.gov/cgi-bin/dataset_lister.pl?p=6"><span>EOS Land Validation</span></a></li>
+					<li><a href="https://daac.ornl.gov/cgi-bin/dataset_lister.pl?p=7"><span>First ISLSCP Field Experiment (FIFE)</span></a></li>
+					<!-- <li><a href="/cgi-bin/dataset_lister.pl?p=8"><span>First ISLSCP Field Experiment (FIFE)  Follow On</span></a></li> -->
+					<li><a href="https://daac.ornl.gov/cgi-bin/dataset_lister.pl?p=9"><span>FLUXNET</span></a></li>
+				</ul>
+			</li>
+			<li><a href="https://daac.ornl.gov/get_data#datasets" class="fly">All Datasets</a></li>
+		</ul>
+	</li>
+	<!-- <li class="top"><a href="/get_data/get_data.html"><span>Get Data</span></a></li> -->
+	<li class="top"><a href="https://daac.ornl.gov/submit/" class="top_link"><span class="down">Submit Data</span></a>
+		<ul class="sub">
+			<li><a href="https://daac.ornl.gov/submit/form/form.html"><span>Submit Data Form</span></a></li>
+			<li><a href="https://daac.ornl.gov/submit/#scope_and_acceptance_policy"><span>Data Scope and Acceptance</span></a></li>
+			<li><a href="https://daac.ornl.gov/submit/#authorship"><span>Data Authorship Policy</span></a></li>
+			<li><a href="https://daac.ornl.gov/submit/#timeline"><span>Data Publication Timeline</span></a></li>
+			<li><a href="https://daac.ornl.gov/submit/#guidelines"><span>Detailed Submission Guidelines</span></a></li>
+		</ul>
+	</li>
+	<!-- <li class="top"><a href="/submit/submit.html"><span>Submit Data</span></a>
+		<ul class="sub">
+			<li><a href="/submit/form/form.html"><span>Submit Data Form</span></a></li>
+			<li><a href="/submit/#scope_and_acceptance_policy"><span>Data Scope and Acceptance Policy</span></a></li>
+			<li><a href="/submit/#authorship"><span>Data Authorship Policy</span></a></li>
+			<li><a href="/submit/#timeline"><span>Data Publication Timeline</span></a></li>
+			<li><a href="/submit/#guidelines"><span>Detailed Submission Guidelines</span></a></li>
+			<li><a href="/submit/questions/questions.html"><span>Data Provider Questions</span></a></li>
+			<li><a href="/submit/qachecklist/qachecklist.html"><span>Data Quality Review Checklist</span></a></li>
+			<li><a href="/submit/csvstandards/csvstandards.html"><span>CSV Standards</span></a></li>
+			<li><a href="/submit/netcdfrequirements/netcdfrequirements.html"><span>NetCDF Data Requirements</span></a></li>
+			<li><a href="/submit/help/helpsub.html"><span>Submission Help</span></a></li>
+		</ul>
+	</li> -->
+	<li class="top"><a href="https://daac.ornl.gov/tools/" class="top_link"><span class="down">Tools</span></a>
+		<ul class="sub">
+			<!-- <li><a href="/tools/"><span>Data Tools</span></a></li> -->
+			<li><a href="https://modis.ornl.gov/data.html" class="fly"><span>MODIS</span></a>
+				<ul>
+					<li><a href="https://daac.ornl.gov/modisfixedsite/"><span>MODIS Fixed Site Subsets</span></a></li>
+					<li><a href="https://daac.ornl.gov/modisglobal/"><span>MODIS Global Subsets</span></a></li>
+					<li><a href="https://daac.ornl.gov/modiswebservice/"><span>MODIS Web service</span></a></li>
+				</ul></li>
+			<li><a href="https://thredds.daac.ornl.gov/thredds/catalogs/ornldaac/ornldaac.html"><span>THREDDS</span></a></li>
+			<li><a href="https://webmap.ornl.gov/ogc"><span>SDAT</span></a></li>
+			<li><a href="https://daymet.ornl.gov/"><span>Daymet</span></a></li>
+			<!-- <li><a href="https://carve.ornl.gov/visualize/"><span>CARVE Data Viewer</span></a></li> -->
+			<!-- <li><a href="/tools/airborne-data-visualizer/adv.html"><span>Airborne Data Visualizer</span></a></li> -->
+			<!-- <li><a href="/tools/airborne-data-visualizer-project-list/adv_viewer.html"><span>Airborne Data Visualizer</span></a></li> -->
+			<li><a href="https://daac.ornl.gov/tools/airborne-data-visualizer-project-list/"><span>Airborne Data Visualizer</span></a></li>
+			<li><a href="https://airmoss.ornl.gov/visualize/"><span>Soil Moisture Visualizer</span></a></li>
+			<li><a href="https://webmap.ornl.gov/qaqc/landwater/"><span>Land - Water Checker</span></a></li>
+			<!-- <li><a href="/cgi-bin/service_dataset_lister.pl?svc_id=1"><span>Spatial Data Access</span></a></li> -->
+			<!-- <li><a href="/cgi-bin/service_dataset_lister.pl?svc_id=2"><span>Spatial Data Access</span></a></li> -->
+			<!-- <li><a href="/spatial_data_access.shtml"><span>Spatial Data Access</span></a></li> -->
+			<!-- <li><a href="/webgis.shtml"><span>WebGIS</span></a></li> -->
+			<!-- <li><a href="/thredds.shtml"><span>THREDDS</span></a></li> -->
+			<!-- <li><a href="/cgi-bin/service_dataset_lister.pl?svc_id=4"><span>THREDDS</span></a></li> -->
+		</ul>
+	</li>
+	<!-- <li class="top"><a href="/tools/tools.html"><span>Tools</span></a></li> -->
+	<li class="top"><a href="https://daac.ornl.gov/resources/" class="top_link"><span class="down">Resources</span></a>
+		<ul class="sub">
+			<li><a href="https://daac.ornl.gov/resources/learning/"><span>Learning</span></a></li>
+			<li><a href="https://daac.ornl.gov/datamanagement/"><span>Data Management</span></a></li>
+			<li><a href="https://daac-news.ornl.gov/"><span>News</span></a></li>
+			<li><a href="https://forum.earthdata.nasa.gov/"><span>Earthdata Forum</span><span class="icon-external-link line-icon pad-left" title="external link"></span></a></li>
+		</ul>
+	</li>
+	<!-- <li class="top"><a href="/resources/resources.html"><span>Resources</span></a>
+		<ul class="sub">
+			<li><a href="/resources/learning/learning.html"><span>Learning</span></a></li>
+			<li><a href="/datamanagement/datamanagement.html"><span>Data Management</span></a></li>
+		</ul>
+	</li> -->
+	<li class="top nofoot"><a href="https://daac.ornl.gov/help/" class="top_link"><span class="down">Help</span></a></li>
+	<!-- <li class="top"><a href="/help/help.html">Help</a></li> -->
+	<li class="top notab"><a href="javascript:feedback.showForm();" class="top_link" title="User&#39;s Service Office" id="Contact"><span class="fa fa-comment fa-flip-horizontal fa-fw"></span><span class="down">Contact Us</span></a></li>
+</ul>
+
+    </div>
+    <!--big-foot-->
+    <hr>
+  </div>
+  <!-- headWrapper -->
+</footer>
+
+<!-- Add utils.js -->
+<script src="./DARTE Annual On-road CO2 Emissions on a 1-km Grid, Conterminous USA, V2, 1980-2017_files/jquery.js"></script>
+<script src="./DARTE Annual On-road CO2 Emissions on a 1-km Grid, Conterminous USA, V2, 1980-2017_files/utils.js"></script>
+<script>highlight(tabToHighlight);</script>
+
+<!-- integrated search bar js -->
+<script src="./DARTE Annual On-road CO2 Emissions on a 1-km Grid, Conterminous USA, V2, 1980-2017_files/jquery-ui.min.js"></script>
+<script src="./DARTE Annual On-road CO2 Emissions on a 1-km Grid, Conterminous USA, V2, 1980-2017_files/jQuery.succinct.min.js"></script>
+<script src="./DARTE Annual On-road CO2 Emissions on a 1-km Grid, Conterminous USA, V2, 1980-2017_files/integrated-search.min.js"></script>
+
+<!-- Add Tophat -->
+<script src="./DARTE Annual On-road CO2 Emissions on a 1-km Grid, Conterminous USA, V2, 1980-2017_files/tophat2.js" id="earthdata-tophat-script" data-current-daac="ORNL DAAC" data-show-fbm="true" data-width="950"></script>
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WNP7MLF" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+<!-- Add Kayako feedback module -->
+<script src="./DARTE Annual On-road CO2 Emissions on a 1-km Grid, Conterminous USA, V2, 1980-2017_files/feedback.js"></script>
+
+<!-- Add Status App -->
+<script src="./DARTE Annual On-road CO2 Emissions on a 1-km Grid, Conterminous USA, V2, 1980-2017_files/banner_widget.js"></script>
+
+<!-- common.js includes highlight current tab, Google Analytics, DAP UA, Initialize Kayako feedback module -->
+<script src="./DARTE Annual On-road CO2 Emissions on a 1-km Grid, Conterminous USA, V2, 1980-2017_files/common.min.js"></script>
+
+<!-- add EUI js -->
+<script src="./DARTE Annual On-road CO2 Emissions on a 1-km Grid, Conterminous USA, V2, 1980-2017_files/eui.min.js"></script>
+
+      
+      <script src="./DARTE Annual On-road CO2 Emissions on a 1-km Grid, Conterminous USA, V2, 1980-2017_files/jquery.tablesorter.min.js">
+      <script>$(document).ready(function() {
+                        $("table").tablesorter({
+                        headers : {}, sortInitialOrder : 'desc'
+                        }); });</script>
+    </div>
+  
+
+
+
+<script type="text/javascript" id="">Element.prototype.matches||(Element.prototype.matches=Element.prototype.matchesSelector||Element.prototype.mozMatchesSelector||Element.prototype.msMatchesSelector||Element.prototype.oMatchesSelector||Element.prototype.webkitMatchesSelector||function(a){a=(this.document||this.ownerDocument).querySelectorAll(a);for(var b=a.length;0<=--b&&a.item(b)!==this;);return-1<b});</script></body></html>
